@@ -32,6 +32,7 @@ function culcResult(answers) {
 }
 
 function showResult(result){
+  document.getElementsByClassName("modal")[0].setAttribute("style", "margin-top: 200px")
   document.getElementById("yes-btn").style.display = "none";
   document.getElementById("no-btn").style.display = "none";
   document.getElementById("print-btn").style.display = "block";
@@ -42,7 +43,11 @@ function showResult(result){
     ele.setAttribute('value', result);
     // 要素を追加
     document.getElementsByClassName("button_to")[0].appendChild(ele);
-  document.getElementById("q_text").innerText = "あなたは";
+  document.getElementById("q_text").innerText = "あなたにおすすめのまちは";
+  var areaName = document.createElement('h1')
+  areaName.setAttribute("class", "area_name");
+  areaName.innerText = '「荻窪」'
+  document.getElementById("q_text").appendChild(areaName);
   showResultImage(result);
 }
 

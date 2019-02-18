@@ -40,11 +40,6 @@ body {
   text-align: center;
 }
 
-.q-number {
-  background-color: #000;
-  color: #fff;
-
-}
 
 .modal {
   position: absolute;
@@ -108,4 +103,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.area_name {
+  text-align: center;
+  font-family: 'GenEi-P-Heavy';
+  letter-spacing: 30px;
+  padding-left: 30px;
 }
