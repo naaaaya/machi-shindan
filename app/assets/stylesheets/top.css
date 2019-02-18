@@ -36,6 +36,10 @@ body {
   padding-left: 30px;
 }
 
+.description {
+  text-align: center;
+}
+
 .q-number {
   background-color: #000;
   color: #fff;
@@ -75,7 +79,19 @@ body {
 }
 
 .btn:last-child {
+    margin: 0;
+}
+
+.print-btn {
+  color:inherit;
+  font-family:inherit;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
   margin: 0;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
 }
 
 .btn:hover {

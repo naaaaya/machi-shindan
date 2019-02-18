@@ -2,5 +2,8 @@
 <div class="options">
   <button class="btn" id='yes-btn' onclick="clickedYes()">Yes</button>
   <button class="btn" id='no-btn' onclick="clickedNo()">No</button>
-  <button class="btn" id='print-btn' onclick="print()" style="display: none">プリントする</button>
+</div>
+<div id='print_data'>
+  <%= button_to "プリントする", result_print_path, class: 'print-btn', id: 'print-btn', style: 'display: none' %>
+    <!-- <input type="submit" name="btn" value="ボタン" onclick="funcBtn();" /> -->
 </div>
