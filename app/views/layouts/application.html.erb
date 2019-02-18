@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>YesnoShindan</title>
+    <title>しんだん</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,16 @@
   </head>
 
   <body>
-    <%= yield %>
-  </body>
+      <body>
+        <header>
+          <div class="title"><h1>まち診断<%= image_tag('city-icon.svg', :size => "64x64", :display => "inline")%></h1>
+          </div>
+        </header>
+
+        <div class="main-contents">
+          <div class="modal">
+            <%= yield %>
+          </div>
+        </div>
+    </body>
 </html>
