@@ -117,7 +117,7 @@ function culcResult(answers, last_question_num) {
 function showResult(town_num){
   town_name = towns[town_num];
   img_num = town_num + 1;
-  document.getElementsByClassName("modal")[0].setAttribute("style", "margin-top: 200px");
+  document.getElementsByClassName("modal")[0].setAttribute("style", "margin-top: 150px");
   document.getElementById("yes-btn").style.display = "none";
   document.getElementById("no-btn").style.display = "none";
   document.getElementById("print-btn").style.display = "block";

@@ -111,3 +111,8 @@ body {
   letter-spacing: 30px;
   padding-left: 30px;
 }
+
+.result-img {
+  display: block;
+  margin: 0 auto;
+}
