@@ -138,7 +138,7 @@ function showResult(town_num){
 
 function showResultImage(img_num){
   var resultImage = document.createElement('img');
-  var src = "/assets/" + Number(img_num).toString()  + "-icon.svg";
+  var src = "/assets/" + Number(img_num).toString()  + "-icon.png";
   resultImage.setAttribute("src", src);
   resultImage.setAttribute("style", "display: block");
   resultImage.setAttribute("class", 'result-img');
