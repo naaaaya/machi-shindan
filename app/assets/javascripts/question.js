@@ -26,7 +26,6 @@ function clickedNo(){
 
 function nextQuestion(){
   q_num += 1;
-  document.getElementById("q_text").innerText = "問題" + q_num;
   if (q_num == 5) {
     town_num = culcResult(answers, last_question_num);
     showResult(town_num);
@@ -121,13 +120,13 @@ function showResult(town_num){
   document.getElementById("yes-btn").style.display = "none";
   document.getElementById("no-btn").style.display = "none";
   document.getElementById("print-btn").style.display = "block";
-  var ele = document.createElement('input');
-    // データを設定
-    ele.setAttribute('type', 'hidden');
-    ele.setAttribute('name', 'result');
-    ele.setAttribute('value', img_num);
-    // 要素を追加
-    document.getElementsByClassName("button_to")[0].appendChild(ele);
+  // var ele = document.createElement('input');
+  //   // データを設定
+  //   ele.setAttribute('type', 'hidden');
+  //   ele.setAttribute('name', 'result');
+  //   ele.setAttribute('value', img_num);
+  //   // 要素を追加
+  //   document.getElementById("print_data").appendChild(ele);
   document.getElementById("q_text").innerText = "あなたにおすすめのまちは";
   var areaName = document.createElement('h1');
   areaName.setAttribute("class", "area_name");

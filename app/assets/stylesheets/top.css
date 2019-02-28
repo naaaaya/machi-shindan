@@ -6,6 +6,7 @@
   font-style: normal;
   src: local("GenEi-P-Heavy");
 }
+
 html {
   font-size: 18px;
 
@@ -61,21 +62,25 @@ body {
   margin-bottom: 1.6rem;
   margin-top: 0;
 }
-.btn {
-  color:inherit;
-    font-family:inherit;
-  font-size: inherit;
-  background: white;
-  padding: 0.3rem 3.4rem;
-  border: 3px solid black;
-  margin-right: 2.6rem;
-  box-shadow: 0 0 0 black;
-  transition: all 0.2s;
-}
 
-.btn:last-child {
-    margin: 0;
-}
+
+
+
+ .btn {
+   color:inherit;
+     font-family:inherit;
+   font-size: inherit;
+   background: white;
+   padding: 0.3rem 3.4rem;
+   border: 3px solid black;
+   margin-right: 2.6rem;
+   box-shadow: 0 0 0 black;
+   transition: all 0.2s;
+ }
+
+ .btn:last-child {
+     margin: 0;
+ }
 
 .print-btn {
   color:inherit;

@@ -3,6 +3,7 @@ class TopController < ApplicationController
 
   end
   def print
+  # uncomment if you wanna use it with thermal printer
     img_num = params[:result]
     original_path = img_num.to_s + '.png'
     system('mv ' + original_path + ' output.png')
